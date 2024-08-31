@@ -1,0 +1,11 @@
+/* Ensure the html and body elements cover the full height of the viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+

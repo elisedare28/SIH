@@ -1,0 +1,9 @@
+/* Full-screen container for Handsontable */
+
+
+.spreadsheet-container {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  align-items: stretch;
+  justify-content: stretch;
+}
