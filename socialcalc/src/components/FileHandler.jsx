@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import './filehandler.css'; // Make sure to import your CSS file
+import './style.css'; // Make sure to import your CSS file
 
 const FileHandler = ({ data, setData }) => {
   const [selectedFormat, setSelectedFormat] = useState('');
@@ -100,4 +100,4 @@ const FileHandler = ({ data, setData }) => {
   );
 };
 
-export default FileHandler;
+export default FileHandler;
